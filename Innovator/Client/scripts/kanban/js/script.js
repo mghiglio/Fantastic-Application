@@ -8,6 +8,9 @@ $(document).ready(function () {
 	loadBoards();
 });
 
+
+// fix bug FA-20
+// now it works!
 $("#addBoard").click(function () {
 	var qryBoards = top.aras.newIOMItem('LAB_Boards', 'add');
 	var results = qryBoards.apply();
